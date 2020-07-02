@@ -37,7 +37,7 @@ pipeline {
         stage('Run') {
          steps {
           echo "DUMMY RUN"
-             bat "mvn spring-boot:run"
+           ./script.bat
          }
         }
    }
